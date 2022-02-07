@@ -1,0 +1,76 @@
+/* css reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times New Roman;
+}
+#nav::before{
+  content: "";
+  background:url("MUSIC.jpg") no-repeat center center/cover;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+#nav{
+  display:flex;
+  justify-content: space-between;
+  background:#293035;
+  padding: 10px;
+  width: 100vw;
+}
+#nav h1{
+  color: white;
+  font-family: Monospace;
+  font-size: 40px;
+  font-weight: ;
+}
+#nav ul{
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+#nav ul li{
+  margin: 10px;
+}
+#nav ul li a {
+  text-decoration: none;
+  padding: 6px 18px;
+  color: white;
+  display: block;
+  /* border: 1px solid gray; */
+  border-radius: 20px;
+}
+#nav a:hover{
+  background: #919aac;
+}
+#nav button{
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 0px 20px;
+  margin-left: 40px;
+  height: 36px;
+}
+/* main section */
+#main{
+  color: white;
+  text-align: center;
+  /* line-height: 40px; */
+  font-size: 3rem;
+  margin: 150px auto;
+  height: 300px;
+}
+#main > h1{
+  margin-bottom: 50px;
+}
+#main >h3{
+  margin-bottom: 120px;
+}
+#main > hr{
+  color: white;
+}
